@@ -1,0 +1,35 @@
+---
+title: "markdown 1"
+author: "soma1"
+date: "26/07/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+rint("this file is created within R stdio")
+
+print("Now its available on git hub")
+
+print("Its 3rd time , i am writing ")
+
+install.packages("rmarkdown")
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
